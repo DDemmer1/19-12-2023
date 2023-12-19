@@ -4,13 +4,15 @@ WS23 - Objektorientierung
 
 ### 📝 Aufgabe:
 
-Aufgabe 2:
+Aufgabe 1:
  - schreibt eine Klasse ```User``` mit folgenden Feldern:
      - ```long id```
      - ```String name```
      - ```String email```
-- erstellt ein Objekt der Klasse ```User```
-- weißt den Feldern des Objekts Werte zu
+- erstellt zwei Objekte der Klasse ```User```
+- weißt den Feldern der Objekte Werte zu
+
+
 
 
 
