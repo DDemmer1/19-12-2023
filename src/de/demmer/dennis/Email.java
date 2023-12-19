@@ -11,11 +11,22 @@ public class Email {
 	
 	//Konstruktor
 	
-	public Email(String neuerBetreff) {
-		betreff = neuerBetreff;
-		
+	public Email(String betreff, String neuerEmpfänger) {
+		this.betreff = betreff;
+		empfänger = neuerEmpfänger;
+	}
+	
+	public Email(int i, String s) {
+		System.out.println("String + int");
+	}
+	
+	
+	
+	public Email() {
 		
 	}
+	
+	
 	
 
 	

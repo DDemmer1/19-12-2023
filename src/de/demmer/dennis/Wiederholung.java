@@ -12,9 +12,13 @@ public class Wiederholung {
 		//-----------------------------------------------
 		
 		String meinString;
-		Email  meineEmail = new Email("Hallo 1");
+		Email  meineEmail = new Email(userBetreff, userEmpfänger);
+		Email  meineEmail2 = new Email("Hallo 2", "empfänger@empf.de");
+	
+		meineEmail.text = "Hallo Welt, das ist ein Text";
 		
-		Email  meineEmail2 = new Email("Hallo 2");
+		System.out.println(meineEmail.text);
+		
 		
 		System.out.println(meineEmail.betreff);
 		System.out.println(meineEmail2.betreff);
